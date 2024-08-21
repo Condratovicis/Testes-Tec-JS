@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 2.4pc;
+}
+
+section{
+    background-color: rgb(135, 135, 204);
+    padding: 3pc 2pc;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.459);
+}
+
+#txtTemp{
+    font-size: 1.4pc;
+    margin-bottom: 10px;
+}
+
+#btn{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1pc;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+}
+
+#res{
+    margin-top: 20px;
+    background-color: rgb(197, 211, 224);
+    width: 50%;
+    padding: 2pc;
+    text-align: center;
+    font-size: 3pc;
+}

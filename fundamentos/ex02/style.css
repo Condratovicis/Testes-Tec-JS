@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+}
+
+header{
+    text-align: center;
+    width: 70%;
+}
+
+h1{
+    color: rgb(30, 29, 29);
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 4px rgba(2, 2, 2, 0.317);
+}
+
+.rad{
+    width: 30px;
+    padding: 10px 20px;
+    font-size: 1.5pc;
+    background-color: red;
+    border-radius: 5px;
+    border: 2px solid rgb(210, 209, 209);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#radFem{
+    color: #D38BFD;
+}
+
+#radMas{
+    color: #36B1DF;
+}
+
+#fem:checked + .rad{
+    background-color: #D38BFD;
+    color: white;
+}
+
+#mas:checked + .rad{
+    background-color: #36B1DF;
+    color: white;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+.infos{
+    width: 30%;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid rgb(199, 196, 196);
+}
+
+#btn{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    font-size: 1.2pc;
+    background-color: #36B1DF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#resultado{
+    background-color: #36B1DF;
+    color: white;
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+}

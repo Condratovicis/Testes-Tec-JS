@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coversor de temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de temperatura</h1>
+        <p>Bem-vindo ao nosso Conversor Online de Temperatura! Esta ferramenta prática permite que você converta facilmente temperaturas de graus Celsius para graus Fahrenheit.</p>
+    </header>
+    <section>
+        <p><strong>instruções</strong> informe a temperatura em seguida escolha para qual escala quer converter</p>
+        <input type="number" name="txtTemp" id="txtTemp">
+        <br>
+        <label for="cel">Celsius</label><input type="radio" name="radEsca" id="cels" checked>
+        <label for="fah">Fahrenheit</label><input type="radio" name="radEsca" id="fah">
+        <br>
+        <input type="button" value="Converter" id="btn" onclick="calcular()">
+    </section>
+    <div id="res">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
