@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+   background-color: beige;
+   font-family: "Reboto", sans-serif;
+}
+
+header{
+   width: 100%;
+   height: 8vh;
+   text-align: center;
+   padding: 1rem;
+}
+
+#container{
+   background-color: #ffffff;
+   width: 30%;
+   height: 82vh;
+   margin: 1rem auto;
+   padding: 1.3rem;
+   border-radius: 20px;
+   box-shadow: 3px 3px 3px #100f0f69;
+}
+
+#container h2{
+   color: #3805c5;
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+}
+
+#container label{
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+#container input{
+   width: 20%;
+   font-size: 1.2rem;
+}
+
+#container button{
+   width: 30%;
+   height: 4vh;
+   cursor: pointer;
+   background-color: #6133de;
+   border: none;
+   color: white;
+   font-weight: bold;
+   border-radius: 5px;
+}
+
+#res{
+   max-width: 70%;
+   min-width: 50%;
+   height: 70%;
+   margin: 0 auto;
+   margin-top: 1rem;
+   padding: 1rem;
+   color: white;
+   border-radius: 15px;
+}
+
+#res td{
+   font-size: 1.3rem;
+   border-bottom: 1px solid white;
+   padding: .3rem;
+}
